@@ -121,6 +121,8 @@ alias ls="colorls"
 alias rm="rm -i"
 alias h="htop"
 alias c="clear"
+alias laf="ls -af"
+alias lad="ls -ad"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 #ln -s /etc/profile.d/vte-2.91.sh /etc/profile.d/vte.sh
