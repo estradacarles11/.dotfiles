@@ -1,0 +1,29 @@
+#
+# /home/estradacarles11/.nvidia-settings-rc
+#
+# Configuration file for nvidia-settings - the NVIDIA X Server Settings utility
+# Generated on Thu May 23 01:00:25 2019
+#
+
+# ConfigProperties:
+
+RcFileLocale = C
+DisplayStatusBar = Yes
+SliderTextEntries = Yes
+IncludeDisplayNameInConfigFile = Yes
+ShowQuitDialog = Yes
+UpdateRulesOnProfileNameChange = Yes
+Timer = Memory_Used_(GPU_0),Yes,3000
+Timer = Thermal_Monitor_(GPU_0),Yes,1000
+Timer = PowerMizer_Monitor_(GPU_0),Yes,1000
+
+# Attributes:
+
+carles:0.0/LogAniso=0
+carles:0.0/FSAA=0
+carles:0.0/TextureClamping=1
+carles:0.0/FXAA=0
+carles:0.0/FSAAAppControlled=1
+carles:0.0/LogAnisoAppControlled=1
+carles:0.0/OpenGLImageSettings=1
+carles:0.0/FSAAAppEnhanced=0
