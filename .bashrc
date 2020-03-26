@@ -1,5 +1,5 @@
 # Path to your oh-my-bash installation.
-export OSH=/home/estradacarles11/.oh-my-bash
+export OSH=$HOME/.oh-my-bash
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-bash is loaded.
@@ -48,7 +48,7 @@ HIST_STAMPS="yyyy-mm-dd"
 # Example format: completions=(ssh git bundler gem pip pip3)
 # Add wisely, as too many completions slow down shell startup.
 completions=(
-  git
+#  git
   composer
   ssh
   pip
@@ -69,12 +69,12 @@ aliases=(
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-  git
+#  git
   bashmarks
   battery
 )
 
-source $OSH/oh-my-bash.sh
+#source $OSH/oh-my-bash.sh
 
 # User configuration
 # export MANPATH="/usr/local/man:$MANPATH"
@@ -103,6 +103,11 @@ source $OSH/oh-my-bash.sh
 # Example aliases
 alias bashconfig="code ~/.bashrc"
 # alias ohmybash="mate ~/.oh-my-bash"
-export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
-export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"
+
+#export PATH="$HOME/.rbenv/bin:$PATH"
+#eval "$(rbenv init -)"
+#export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"
+
+if [ -t 1 ]; then
+exec zsh
+fi
